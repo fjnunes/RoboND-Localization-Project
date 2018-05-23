@@ -1,3 +1,14 @@
-TrajectoryPlannerROS:
+controller_frequency: 2.0
 
+TrajectoryPlannerROS:
   holonomic_robot: false
+  publish_cost_grid_pc: true
+  sim_time: 20.0
+  meter_scoring: true
+  pdist_scale: 1.0
+  gdist_scale: 5.0
+
+
+
+
+
