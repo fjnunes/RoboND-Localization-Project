@@ -2,8 +2,8 @@ controller_frequency: 5.0
 
 TrajectoryPlannerROS:
   holonomic_robot: false
-  pdist_scale: 0.8
-  gdist_scale: 0.6
+  pdist_scale: 1.0
+  gdist_scale: 0.4
   occdist_scale: 0.01
   publish_cost_grid_pc: true
   meter_scoring: true
