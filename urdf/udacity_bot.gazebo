@@ -18,8 +18,11 @@
     </plugin>
   </gazebo>
 
-  <gazebo reference="chassis">
-    <material>Gazebo/Green</material>
+  <gazebo reference="front_wing">
+    <material>Gazebo/Red</material>
+  </gazebo>
+  <gazebo reference="rear_wing">
+    <material>Gazebo/Red</material>
   </gazebo>
   <gazebo reference="right_wheel">
     <material>Gazebo/Black</material>
